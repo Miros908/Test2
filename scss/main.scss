@@ -1,0 +1,82 @@
+//Размеры экранов
+$breakpoint-md: 768px; // планшеты
+$breakpoint-xl: 1200px; // ПК
+
+//Цвета
+$white:#ffffff;
+$white-blue:#FAFBFF;
+$white-blue-origin:#F9FBFF;
+$grey:#EEEEEE;
+$grey-special:#F5F5F5;
+$grey-origin:#B5B7C0;
+$grey-new:#838383;
+$grey-monica:#757575;
+$grey-original:#9197B3;
+$black-origin:#292D32;
+$black-special:#404B52;
+$green-origin:#008767;
+$green:#00B087;
+$green-special:rgba(22, 192, 152, 0.38);
+$green-new:#16C098;
+$red-light:#FFC5C5;
+$red:#DF0404;
+$purple:#5932EA;
+
+
+@import 'wrapper.scss';
+@import 'side-menu/side-menu';
+@import 'side-menu/side-manu-wrapper';
+@import 'info-display/info-display';
+@import 'info-display/search-section.scss';
+@import 'info-display/customer-info';
+@import 'info-display/info-display-wrapper.scss';
+@import 'info-display/pagination.scss';
+
+
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins-Medium.woff') format('woff'), url('../fonts/Poppins-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins-Regular.woff') format('woff'), url('../fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins-SemiBold.woff') format('woff'), url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size:14px;
+  font-style: normal;
+  letter-spacing: -0.14px;
+
+
+}
+
+.hiddens{
+  display:none;
+  @media(min-width:$breakpoint-xl){
+   display:block;
+  }
+}
+
+
+
+
+

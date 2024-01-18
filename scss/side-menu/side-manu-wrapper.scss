@@ -1,0 +1,24 @@
+.side-menu__wrapper-list-user-info {
+  z-index:1;
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  top:50px;
+  background-color: $white;
+  box-shadow: 0 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 10px;
+  padding-top:25px;
+  padding-bottom:25px;
+  padding-left:20px;
+
+  @media(min-width: $breakpoint-xl) {
+    display:block;
+    position: static;
+    box-shadow:none;
+  }
+}
+

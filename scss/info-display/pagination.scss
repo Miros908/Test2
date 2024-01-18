@@ -1,0 +1,39 @@
+.info-display__pagination {
+  display: flex;
+
+
+  color: $black-special;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @media(min-width: $breakpoint-md) {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-left: 553px;
+
+  }
+
+  button{
+    width: 26px;
+    height: 24px;
+    background-color: $grey-special;
+    border: 2px solid $grey;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  button:hover{
+    background-color: $purple;
+    color:$white;
+    border: 2px solid $purple;
+
+  }
+}
+
+.continue{
+  border:none !important;
+  background-color: inherit !important;
+}
+
+.info-display__pagination-item{
+  margin-right:12px;
+}

@@ -1,0 +1,158 @@
+.customers-info-list {
+  position: relative;
+  width: 100%;
+  @media(min-width: $breakpoint-md) {
+    display: none;
+  }
+}
+
+.customers-item {
+
+
+  padding: 15px 15px;
+  font-size: 12px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.customers-item__head {
+  color: $grey-origin;
+}
+
+.customers-item__client-info {
+  color: $black-origin;
+}
+
+.customers-item::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: $grey;
+  position: absolute;
+  left: 0;
+  margin-top: 130px;
+}
+
+.customers-info-table-md {
+  display: none;
+  @media(min-width: $breakpoint-md) {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+
+
+  }
+  @media(min-width:$breakpoint-xl){
+    justify-content: flex-start;
+  }
+}
+
+
+.customers-info-md {
+
+  @media(min-width: $breakpoint-md) {
+    display: flex
+  }
+}
+
+.customers-col-md__item-head {
+  color: $grey-origin;
+  margin-bottom: 37px
+}
+
+.customers-col-md__item {
+  color: $black-origin;
+  margin-bottom: 48px;
+
+}
+
+.customers-col-md {
+
+
+}
+
+.customers-col-md__item-head-status {
+  padding-left: 15px;
+
+}
+
+.customers-col-md__item-decor::before {
+  content: '';
+  position: absolute;
+  width: 91.5%;
+  height: 1px;
+  background-color: $grey;
+  margin-top: 38px;
+  @media(min-width: $breakpoint-xl) {
+
+
+    width: 96%;
+    margin-top: 45px;
+    left: 20px;
+  }
+}
+
+.customers-col-md--status {
+  gap: 33px;
+}
+
+.customers-info-table-md::before {
+  content: "";
+  width: 95.8%;
+  height: 1px;
+  background-color: #EEEEEE;
+  position: absolute;
+  left: 20px;
+  margin-top: 34px;
+  @media(min-width: $breakpoint-xl) {
+
+    width: 100%;
+
+    left: 0px;
+
+  }
+
+
+}
+
+.customers-col-md--name{
+  @media(min-width: $breakpoint-xl) {
+    margin-left: 13px;
+    margin-right: 54px;
+  }
+}
+
+.customers-col-md--company{
+  @media(min-width: $breakpoint-xl) {
+    margin-right: 61px;
+  }
+}
+
+.customers-col-md--phone{
+  @media(min-width: $breakpoint-xl) {
+    margin-right: 47px;
+  }
+}
+
+.customers-col-md--email{
+  @media(min-width: $breakpoint-xl) {
+    margin-right: 39px;
+  }
+}
+
+.customers-col-md--country{
+  @media(min-width: $breakpoint-xl) {
+    margin-right: 46px;
+  }
+}
+
+.status{
+  @media(min-width: $breakpoint-xl) {
+    margin-bottom: 42px;
+  }
+}
